@@ -7,16 +7,12 @@ Rake tasks for Hugo sites.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hugo-rake-tasks'
+gem 'hugo-rake-tasks', git: 'https://github.com/tortus/hugo-rake-tasks.git'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install hugo-rake-tasks
 
 In your Rakefile:
 
@@ -24,7 +20,16 @@ In your Rakefile:
 require 'hugo-rake/tasks'
 
 # If you want running "rake" to build the site:
-task :default => :build
+task :default => "hugo:build"
+```
+
+## Usage
+
+```sh
+$ hugo rake:build
+$ hugo rake:serve
+$ hugo rake:clean
+$ hugo rake:deploy
 ```
 
 ## License
