@@ -1,4 +1,4 @@
-# Netlify::Rake::Tasks
+# Hugo Rake Tasks
 
 Rake tasks for Hugo sites.
 
@@ -18,14 +18,12 @@ Or install it yourself as:
 
     $ gem install hugo-rake-tasks
 
-## Usage
-
 In your Rakefile:
 
 ```rake
-require 'hugo_rake_tasks/tasks'
+require 'hugo-rake/tasks'
 
-# If you want just running "rake" to build the site:
+# If you want running "rake" to build the site:
 task :default => :build
 ```
 

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-describe HugoRakeTasks do
+describe HugoRake do
 
   def test_the_truth
     assert true

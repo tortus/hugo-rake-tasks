@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'hugo-rake-tasks/version'
+require 'hugo-rake/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "hugo-rake-tasks"
-  spec.version       = HugoRakeTasks::VERSION
+  spec.version       = HugoRake::VERSION
   spec.authors       = ["Tortus Tek, Inc."]
   spec.email         = ["support@tortus.com"]
 
