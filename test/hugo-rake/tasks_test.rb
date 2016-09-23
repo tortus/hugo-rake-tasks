@@ -1,4 +1,6 @@
 require 'test_helper'
+require 'hugo-rake/tasks'
+
 
 class TasksTest < MiniTest::Test
 
