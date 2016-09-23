@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'hugo_rake_tasks/version'
+require 'hugo-rake-tasks/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "hugo-rake-tasks"
-  spec.version       = NetlifyRakeTasks::VERSION
+  spec.version       = HugoRakeTasks::VERSION
   spec.authors       = ["Tortus Tek, Inc."]
   spec.email         = ["support@tortus.com"]
 
-  spec.summary       = %q{Rake tasks for Netlify sites}
+  spec.summary       = %q{Rake tasks for Hugo sites}
   spec.homepage      = "https://github.com/tortus/hugo-rake-tasks.git"
   spec.license       = "MIT"
 
