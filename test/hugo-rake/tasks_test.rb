@@ -1,6 +1,6 @@
 require 'test_helper'
 
-describe HugoRake do
+class TasksTest < MiniTest::Test
 
   def test_the_truth
     assert true
