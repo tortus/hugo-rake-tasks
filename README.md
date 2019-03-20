@@ -26,10 +26,10 @@ task :default => "hugo:build"
 ## Usage
 
 ```sh
-$ hugo rake:build
-$ hugo rake:serve
-$ hugo rake:clean
-$ hugo rake:deploy
+rake hugo:build
+rake hugo:serve
+rake hugo:clean
+rake hugo:deploy
 ```
 
 ## License
